@@ -1,0 +1,47 @@
+<section id="html">
+    <div class="employees-add-export">
+        <div class="employee-content">
+            <p>Employees</p>
+            <p class="content">Find all of your company's employee accounts and their associated roles</p>
+        </div>
+        <div class="export-addemployee">
+            <button class="export-btn" ><img src="assets/Export.svg" alt="Export-img">EXPORT</button>
+            <a routerLink="/add-employee" routerLinkActive="active"><button class="add-btn" ><img src="assets/Add.svg" alt="add-img">ADD EMPLOYEE</button></a>
+        </div>
+    </div>
+    <div class="filter">
+        <img src="assets/temp.svg" alt="filter-img" id="filter-icon" (click)="resetAlphabetFilter()" >
+        <div class="drop-down-menu"> 
+            <select name="drop-down" id="drop-down-list">     
+            </select>
+        </div>
+        <ul id="create-li">
+            @for(alphabet of alphabets;track alphabet)
+            {
+                <li attr.value="{{alphabet}}" (click)="sortByAlphabet(alphabet)" class="alphabets" [class.active]="selectedItem === alphabet">{{alphabet}}</li>
+            }
+        </ul>
+    </div>
+    <div class="filter-search">
+        <div>
+        <span>Filter</span>
+        <img src="assets/bars-filter.svg" alt="bars-filter" width="15px">
+        <app-selectdropdown [name]="'Status'" [items]="statusValues" (sendData)="receiveData($event,'status')" #statusref></app-selectdropdown>
+        <app-selectdropdown [name]="'Location'" [items]="locations" (sendData)="receiveData($event,'Location')" #locationref></app-selectdropdown>
+        <app-selectdropdown [name]="'Department'" [items]="departments" (sendData)="receiveData($event,'Department')" #departmentref></app-selectdropdown>
+        </div>
+        <div>
+        <button class="reset-btn" (click)="resetFiltersOnEmployees()">Reset</button>
+        <button class="apply-btn" (click)="applyFilterOnEmployees()">Apply</button>
+        </div>
+    </div>
+    <div class="employee-info">
+        <div class="modify-table">
+            <div class="del-btn"><img src="assets/arrow-turn left -down.svg" alt="let-down-arrow" class="left-down-arrow"/>
+            <button class="delete-btn" [class.change-bg]="btnColourChange">Delete</button></div>
+            <img src="assets/table-add.svg" alt="Add table" class="add-table-img">
+        </div>
+        <app-table [(tabledata)]="employees" (checkboxChange)="changeColour($event)"></app-table>
+        
+    </div>
+</section>

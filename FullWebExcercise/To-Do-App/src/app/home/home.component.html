@@ -1,0 +1,8 @@
+<div class="to-do-app" [class.blur]="showAddTaskComponent">
+    <app-sidebar class="side-bar"></app-sidebar>
+    <div class="container">
+        <app-header></app-header>
+        <router-outlet></router-outlet>
+    </div>
+</div>
+<app-addtask class="add-task" [class.display-block]="showAddTaskComponent"></app-addtask>

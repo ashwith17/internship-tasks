@@ -1,0 +1,122 @@
+.features{
+    column-gap: 5px;
+}
+
+.employee-btn{
+    text-decoration: none;
+    color: #000;
+}
+.role-descr-btn{
+    text-decoration: none;
+    color: #000;
+}
+.add-roles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+.roles{
+    background-color:#FDE6E6 ;
+    color: #F44848;
+}
+.roles-btn{
+    text-decoration: none;
+    color: black;
+    
+}
+.roles::after{
+
+        content: "";
+        background-color: #F44848;
+        width: 3px;
+        position: relative;
+        left: 11px;
+        border-radius: 2px 0px 0px 2px;
+}
+.add-roles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.add-btn {
+    padding: 12px 12px 12px 17px;
+    width: 175px;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #F44848;
+    border: none;
+    height: 40px;
+    box-shadow: 0px 0px 10px #ede5e5;
+    display: inline-flex;
+}
+.add-btn img{
+    padding-right: 8px;
+    width: 15px;
+}
+.content {
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+
+.side-arrow-icon {
+    rotate: 270deg;
+    width: 12px;
+    margin: 0px 12px;
+}
+.role-descr{
+    margin-top: 15px;
+}
+.role-descr strong{
+    font-size: 17px;
+}
+.person1{
+    width: 36px;
+    border-radius: 50px;
+    height: 36px;
+}
+.m-0{
+    margin: 0px;
+}
+.emp-details{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.emp-card{
+    width: 30%;
+    padding: 5px;
+    border: 1px solid rgb(212, 207, 207);
+    min-width: 300px;
+}
+.alignment {
+    display: inline-flex;
+    padding-top: 4px;
+    width: 100%;
+    align-items: center;
+}
+.alignment p{
+    opacity: 0.6;
+}
+.emp-work-info {
+    margin-left: 14px;
+    margin-right: 10px;
+}
+.description-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+    font-size: 14px;
+    margin-top: 12px;
+    
+}
+.m-8{
+    margin: 8px;
+}
+.align-right{
+    text-align: right;
+    opacity: 0.6;
+}

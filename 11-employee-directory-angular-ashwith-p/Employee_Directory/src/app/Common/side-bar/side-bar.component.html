@@ -1,0 +1,35 @@
+
+<nav class="horizantal-nav">
+    <img src="assets/tezosymbol.png" alt="tezosybol" class="brand-icon"/>
+    <img src=" assets/TezoLogo.svg" alt="TezoLogo" class="brand-logo"/>
+    <img src=" assets/handle.png" alt="Handle" class="handle"/>
+    <p class="horizantal-nav-description">ALL</p>
+    <div class="dashboard features">
+        <img src=" assets/Dashboard.svg" alt="DashboardLogo" class="horizontal-logos">
+        <p class="horizantal-nav-names">Dashboard</p>
+    </div>
+        <div class="features" [class.employees]="currentURL=='/' || currentURL=='/add-employee' "
+        routerLink="/" routerLinkActive="active">
+            <img src=" assets/Employees.svg" alt="EmployeesLogo" class="horizontal-logos">
+            <p class="horizantal-nav-names">Employees</p>
+        </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+    
+    
+    <p class="roles-or-user-management horizantal-nav-description" >ROLE/USER MANAGEMENT</p>
+    <a class="roles-btn" routerLink="/roles" routerLinkActive="active"><div class="features" [class.roles]="currentURL=='/roles' || currentURL=='/role-desc/2'">
+        <img src=" assets/Roles.svg" alt="RolesLogo" class="horizontal-logos">
+        <p  class="horizantal-nav-names">Roles</p>
+        <img src=" assets/side_arrow.svg" alt="side_arrow" class="side-arrow-roles"/>
+    </div></a>
+    <div class="assign-user features">
+        <img src=" assets/assign user.svg" alt="assign-userLogo" class="horizontal-logos">
+        <p  class="horizantal-nav-names">Access rights</p>
+        <img src=" assets/side_arrow.svg" alt="side_arrow" class="side-arrow-user"/>
+    </div>
+</nav>
+<div class="install-update">
+    <p class="horizantal-nav-names update-text">Install new Update 2.3.1A</p>
+    <p class="horizantal-nav-names">Aloow to launch the new update for the AD application</p>
+    <button class="dismiss-btn">Dismiss</button>
+    <button class="accept-btn">Accept</button>
+</div>

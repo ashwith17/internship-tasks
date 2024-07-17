@@ -1,0 +1,26 @@
+<div class="signUp-bg-image">
+    <div class="sign-up" [style.background-color]="bgcolour" [class.box-shadow]="currentUrl=='/login'">
+        <div class="sign-up-content" >
+            <div class="content" >    
+                <div class="title">
+                    <span [style.color]="titlecolour">To-Do App</span>
+                </div>
+                <div class="sub-title" [style.color]="currentUrl=='/login'?'#000':'#fff'">Start organizing your life day by day</div>
+            </div>  
+            <div class="signUp-form">
+                <form [formGroup]="form">      
+                    <div class="input-elements">
+                    
+                        <input type="email" placeholder="user name" [class.box-shadow]="currentUrl=='/login'" formControlName="email">
+                        <input type="password" placeholder="password" [class.box-shadow]="currentUrl=='/login'" formControlName="password">
+                    </div>
+                    <div class="button" >    
+                        <button [style.color]="currentUrl=='/login'?'#000':'#fff'" [style.background-color]="currentUrl=='/login'?'#EDB046':'#BA5112'" (click)="Autenticate()">{{title}}</button>
+                        <div class="sign-in-msg" [style.color]="currentUrl=='/login'?'#000':'#fff'">{{msg}}<a  [style.color]="currentUrl=='/login'?'#EDB046':'#BA5112'" (click)="changePath()">here</a></div>
+                    </div>  
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>

@@ -1,0 +1,305 @@
+
+.features{
+    column-gap: 10px;
+}
+.employees{
+    background-color:#FDE6E6 ;
+    color: #F44848;
+}
+.roles-btn{
+    text-decoration: none;
+    color: black;
+}
+.employees::after{
+
+        content: "";
+        background-color: #F44848;
+        width: 3px;
+        position: relative;
+        left: 44%;
+        border-radius: 2px 0px 0px 2px;
+}
+.employees-add-export {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.export-btn {
+    width: 120px;
+    font-size: 13px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    height: 35px;
+    margin-right: 21px;
+    opacity: 0.7;
+}
+.export-btn img{
+    padding-right: 8px;
+    width: 15px;
+}
+
+.add-btn {
+    width: 190px;
+    font-size: 13px;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #F44848;
+    border: none;
+    height: 40px;
+    box-shadow: 0px 0px 10px #928a8a;
+    display: inline-flex;
+    padding: 13px;
+    padding-left: 25px;
+}
+
+.add-btn img{
+    padding-right: 8px;
+    width: 15px;
+}
+.content {
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+.filter{
+    display: flex;
+}
+.filter ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+.filter a {
+    text-decoration: none;
+    color: #919DAC;
+    background-color: #EAEBEE;
+    padding: 10px 9px;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+.filter li{
+    display: inline-block;
+}
+.filter a:hover{
+    color: #ffffff;
+    background-color: #F44848;
+
+}
+.drop-down-menu{
+    display: none;
+}
+.filter-search {
+    padding: 6px;
+    padding-left: 17px;
+    margin-top: 3px;
+    border-radius: 5px;
+    background-color: #FDF2F2;
+    border: 1px solid #fbc0c0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 15px;
+}
+.del-btn{
+    display: inline-flex;
+}
+.filter-search span{
+    color: #F44848;
+    margin-right: 5px;
+}
+.filter-search select{
+    padding: 8px 5px;
+    border: 1px solid #fbc0c0;
+    border-radius: 5px;
+}
+.reset-btn{
+    background-color: #ffffff;
+    color: #F44848;
+}
+.filter-search button{
+    padding: 5px 10px;
+    border: 1px solid #F44848;
+    border-radius: 5px;
+}
+.apply-btn{
+    background-color: #F44848;
+    color: #ffffff;
+}
+
+.filter-search button:hover{
+    background-color: #F44848;
+    color: #ffffff;
+}
+.modify-table{
+    position: sticky;
+    top: 0px;
+    padding: 7px;
+    background-color: #fff;
+    z-index: 4;
+    display: flex;
+    justify-content: space-between;
+}
+.modify-table button{
+    padding: 4px 7px;
+    color: #ffffff;
+    background-color: #F89191;
+    border: none;
+}
+.user-details{
+    display: flex;
+    column-gap: 5px;
+}
+.user-details img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+
+}
+.user-details p{
+    margin: 0px;
+}
+table{
+    text-align: left;
+    width: 100%;
+    white-space: nowrap;
+    
+}
+table th{
+    padding: 10px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+table td{
+    padding: 10px;
+    font-size: 14x;
+}
+table tr:hover{
+    background-color: #FFF4F4;
+}
+.email-id{
+    opacity: 0.6;
+}
+table button{
+    padding: 3px 12px;
+    color: #599E87;
+    background-color: #E7F4E8;
+    border: none;
+}
+table, th, td {
+    border-width:1px 0px;
+    border-color: rgb(189, 187, 187);
+    border-style:solid;
+    border-collapse: collapse;
+}
+.sort-icon{
+    padding-left: 8px;
+}
+.table-heading{
+    background-color: rgb(247 247 247);
+    position: sticky;
+    top: 0px;
+}
+.employee-info {
+    box-shadow: 0px 0px 4px rgb(212, 200, 200);
+    width: 100%;
+    overflow: scroll;
+    margin-top: 10px;
+    height: 56.79vh;
+}
+
+
+@media screen and (max-width:1153px){
+    .admin-details {
+        width: 18%;
+    }
+}
+@media screen and (max-width:976px){
+    .horizantal-content{
+        width: 28%;
+    }
+}
+@media screen and (max-width:889px){
+    .admin-details {
+        width: 21%;
+    }
+    .filter ul {
+        display: none;
+    }
+    .drop-down-menu{
+        display: contents;
+        outline: none;
+    }
+    .drop-down-menu select{
+        border: 1px solid red;
+    }
+    .filter {
+        column-gap: 30px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:715px) {
+    .tezo-logo {
+        width: 81%;
+        padding: 6px 5px;
+    }
+    .handle {
+        top: -11%;
+        left: 90%;
+    }
+    .features {
+        width: 100px;
+    }
+    .horizontal-logos {
+        width: 25px;
+        padding: 10px;
+    }
+    .horizantal-nav-names {
+        display: none;
+    }
+    .employees::after {
+        left: 53%;
+    }
+    .install-update {
+        display: none;
+    }
+    .side-arrow-roles {
+        margin-left: 42px;
+    }
+    .horizantal-nav-description {
+        padding-top: 0px;
+    }
+    .admin-details {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width:505px) {
+    .clr-img{
+        display: none;
+    }
+    .admin-details {
+        width: 38%;
+    }
+    .features{
+        column-gap: 0px;
+    }
+}
+@media screen and (max-width:423px) {
+    .features{
+        width: 60px;
+    }
+    .side-arrow-roles
+    {
+        margin-left: 15px;
+    }
+    .side-arrow-user{
+        margin-left: 15px;
+    }
+    
+}

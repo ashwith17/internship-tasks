@@ -1,0 +1,46 @@
+<table class="employee-table">
+    <tbody>
+        <tr class="table-heading">
+            <th><input type="checkbox" class="checkbox-btn" (change)="selectEmployee($event,'all')"></th>
+            <th class="user-width">USER <img src="assets/sort-solid.svg" alt="Sort icon" width="5px" class="sort-icon" (click)="sortDataByColumn('FirstName')"/></th>
+            <th>LOCATION<img src="assets/sort-solid.svg" alt="Sort icon" width="5px" class="sort-icon" (click)="sortDataByColumn('Location')"/></th>
+            <th style="width: 150px;">DEPARTMRNT<img src="assets/sort-solid.svg" alt="Sort icon" width="5px" class="sort-icon" (click)="sortDataByColumn('Department')"/></th>
+            <th style="width: 120px;">ROLE<img src="assets/sort-solid.svg" alt="Sort icon" width="5px" class="sort-icon" (click)="sortDataByColumn('Role')"/></th>
+            <th style="width: 100px;">EMP NO <img src="assets/sort-solid.svg" alt="Sort icon" width="5px" class="sort-icon" (click)="sortDataByColumn('Id')"/></th>
+            <th style="width: 80px;">STATUS <img src="assets/sort-solid.svg" alt="Sort icon" width="5px" class="sort-icon" (click)="sortDataByColumn('status')"></th>
+            <th style="width: 120px;">JOIN DT<img src="assets/sort-solid.svg" alt="Sort icon" width="5px" class="sort-icon" (click)="sortDataByColumn('JoiningDate')"/></th>
+            <th><img src="assets/ellipsis-solid.svg" alt="ellipsis" width="15px"/></th>
+        </tr>
+        
+            <tr *ngFor="let employee of tabledata">
+                <td><input type="checkbox" (change)="selectEmployee($event,employee.Id)"></td>
+                <td>
+                    <div class="user-details">
+                        <img src="assets/person1.jpg" alt="person1"/>
+                        <div>
+                            <p>{{employee.FirstName}} {{employee.LastName}}</p>
+                            <p class="email-id">{{employee.Email}}</p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    {{employee.Location}}
+                </td>
+                <td>{{employee.Department}}</td>
+                <td>{{employee.Role}}</td>
+                <td>{{employee.Id}}</td>
+                <td>
+                    <button>Active</button>
+                </td>
+                <td>{{employee.JoiningDate}}</td>
+                <td><img src="assets/ellipsis-solid.svg" alt="ellipsis" (click)="getFloatingDiv(employee.Id)" width="15px"/></td>
+                <div class="floating-div" [class.d-block]="displayDiv==employee.Id" >
+                    <p routerLinkActive="active" [routerLink]="['/add-employee/view',employee.Id]"> View</p>
+                    <p routerLinkActive="active" [routerLink]="['/add-employee/edit',employee.Id]">Edit</p>
+                    <p (click)="DeleteEmployee(employee.Id)">Delete</p>
+                </div>
+            </tr>
+        
+        
+    </tbody>
+</table>

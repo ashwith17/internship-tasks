@@ -1,0 +1,37 @@
+@for(task of tasks;track task.id)
+{
+    <div class="p-relative" (click)="getDescription(task.id)">
+        <div class="task-list">
+            <div class="h-72">
+                <div class="task-format" [class.completed]="task.isCompleted">
+                    <div class="task-name">
+                       <img [src]="task.isCompleted?'/assets/task_completed.png':'/assets/Vector.png'" alt="" (click)="UpdateStatus(task.isCompleted,task.id)"> {{task.name}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-shadow summary" [class.display-block]="displayDescription==task.id" [class.completed]="task.isCompleted" [class.bg-white]="!task.isCompleted">
+            <div >
+                <div class="contents">
+                    <div >
+                        <p class="title">{{task.name}}</p>
+                        <p class="duration" [class.color-red]="task.isCompleted">{{timeMessage}}</p>
+                    </div>
+                    <div class="description">
+                        <p class="name">Description</p>
+                        <p class="task-description">{{task.description}}</p>
+                    </div>
+                </div>
+                <div class="modifications" >
+                    <div >
+                        <img [src]="task.isCompleted?'/assets/task_completed.png':'/assets/Vector.png'" alt="completed-img" (click)="UpdateStatus(task.isCompleted,task.id)">
+                    </div>
+                    <div class="g-20">
+                        <img src="/assets/carbon_edit.png" alt="edit-img" [class.display-none]="task.isCompleted" (click)="editTask(task.id)">
+                        <img [src]="task.isCompleted?'/assets/delete-outlined .png':'/assets/delete.png'" alt="delete-img" (click)="deleteTask(task.id)">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

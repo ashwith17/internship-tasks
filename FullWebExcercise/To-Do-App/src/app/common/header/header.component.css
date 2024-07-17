@@ -1,0 +1,301 @@
+.header{
+    height: 2.719rem;
+    padding: 1% 4% 1% 4%;
+}
+
+.page-name{
+    width: 150px;
+    height: 3.719rem;
+    line-height: 1.5;
+    font-family: Lexend;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.dashboard-name
+{
+    display: block;
+    margin: 5px;
+}
+
+.header-contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-out-btn {
+        width: 90px;
+        height: 19px;
+        padding: 1.2% 2% 1% 3%;
+        border-radius: 8px;
+        background-color: #BA5112;
+        color: #fff;
+        cursor: pointer;
+}
+.sign-out-btn div
+{
+    display: flex;
+    justify-content: space-between;
+}
+.sign-out-btn span{
+    line-height: 1;
+}
+
+.app-title
+{
+    display: none;
+    color: #BA5112;
+    font-family: Lexend;
+    font-weight: 700;
+    font-size: 30px;
+}
+.add-task-button {
+    height: 25px;
+    width: 6.8rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 12px;
+    padding: 14px 16px;
+    display: block;
+
+}
+.button-center{
+    margin-left: 21%;
+    margin-right: 24%;
+
+}
+.btn-content{
+    width: 120px;
+    height: 1.5rem;
+    display: flex;
+    column-gap: 3px;
+    white-space: nowrap;
+
+}
+.value{
+    height: 1.7rem;
+    width: 78px;
+    margin: 0px 0px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Lexend;
+    line-height: 25px;
+
+}
+.icon{
+    border-radius: 100px;
+    background-color: #BA5112;
+    width: 22px;
+    margin-top: 1px;
+    height: 22px;
+
+}
+.horizantal{
+    width: 14px;
+    z-index: 3;
+    border: 1.35px solid #fff;
+    margin: 9.5px 2.6px;
+}
+.vertical{
+    width: 13px;
+    z-index: 3;
+    border: 1.35px solid #fff;
+    margin: -12px 0px 0px 3px;
+    rotate: 90deg;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.add-task-button-header
+{
+    display: none;
+}
+.menu-drop-down{
+    display: none;
+    width: 70%;
+    padding: 15px;
+    background-color: #EDB046;
+    margin-left: 10%;
+    border-radius: 12px;
+}
+.menu-drop-down option
+{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Lexend;
+}
+@media screen and (max-width:876px) {
+    
+    .app-title{
+        display: block;
+        margin-top: 0px;
+    }
+    .dashboard-name
+    {
+        display: none;
+    }
+    .add-task-button-header
+    {
+        height: 20px;
+    width: 6.8rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 12px;
+    padding: 9px 11px;
+    display: block;
+    }
+    .btn-content {
+        width: 107px;
+        height: 1.4rem;
+    }
+    .value {
+        height: 1.7rem;
+        width: 78px;
+        margin: 0px;
+        font-size: 15px;
+        line-height: 19px;
+        margin-top: 2px;
+    }
+    .icon {
+
+        width: 20px;
+        margin-left: 1px;
+        margin-top: 1px;
+        height: 21px;
+    }
+    .horizantal {
+        width: 12px;
+        border: 1.35px solid #fff;
+        margin: 9.4px 2.2px;
+    }
+    .vertical[_ngcontent-ng-c3875435057] {
+        width: 11px;
+        border: 1.35px solid #fff;
+        margin: -12.3px 0px 0px 3px;
+        rotate: 90deg;
+    }
+    .page-name {
+        width: 50%;
+        height: 3.719rem;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    .menu-drop-down
+    {
+        display: block;
+    }
+
+}
+@media screen and (max-width:876px) {
+    .header
+    {
+        height: 7.719rem;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:728px) {
+
+    .app-title
+    {
+        font-size: 24px;
+    }
+    .page-name
+    {
+        width: 30%;
+    }
+    
+}
+@media screen and (max-width:485px) {
+
+    .app-title
+    {
+        font-size: 20px;
+    }
+
+    .menu-drop-down {
+        width: 98%;
+        padding: 9px;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .menu-drop-down option{
+        color: black;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: Lexend;
+    }
+
+}
+@media screen and (max-width:400px) {
+
+    .app-title
+    {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:430px) {
+
+    .add-task-button-header {
+        height: 19px;
+        width: 4rem;
+        border-radius: 7px;
+        padding: 6px 7px;
+        margin-top: -6px;
+    }
+
+    .btn-content{
+        width: 75px;
+        height: 1.4rem;
+    }
+
+    .value{
+        height: 1rem;
+        width: 60px;
+        margin: 0px;
+        font-size: 10px;
+        line-height: 14px;
+        margin-top: 2px;
+    }
+    .icon {
+        width: 15px;
+        margin-left: -10px;
+        margin-top: 2px;
+        height: 15px;
+    }
+    .horizantal {
+        width: 8px;
+        border: 1px solid #fff;
+        margin: 7.4px 2.8px;
+    }
+
+    .vertical {
+        width: 8px;
+        border: 1px solid #fff;
+        margin: -9px 0px 0px 3.5px;
+    }
+
+    .sign-out-btn[_ngcontent-ng-c1307224101] {
+        width: 58px;
+        height: 21px;
+        font-size: 10px;
+        padding: 1.2% 2% 1% 3%;
+        border-radius: 8px;
+        line-height: 19px;
+        margin-top: -4px;
+    }
+
+    .sign-out-btn span {
+        line-height: inherit;
+    }
+
+}
+
+@media screen and (max-width:330px) {
+
+    .app-title
+    {
+        font-size: 14px;
+    }
+}

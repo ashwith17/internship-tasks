@@ -1,0 +1,31 @@
+<div class="task-description">
+    @if(currentURL!='/dashboard')
+    {
+        <p class="current-task">Today's {{currentURL.substring(1)}} Tasks</p>
+    }
+    @else
+    {
+        <p class="current-task">Today's Tasks</p>
+    }
+    <div class="date">
+        <p (click)="showAlert=true" class="delete-btn" [class.d-none]="currentURL!='/dashboard'">Delete All</p>
+        <p>{{date|date:'fullDate'}}</p>
+    </div>
+</div>
+
+
+<div class="alert-msg" [class.d-block]="showAlert">
+    <div>
+        <p>Are You user you Want to delete?</p>
+    </div>
+    <div>
+        <button class="delete button" (click)="deleteAll()">
+            Delete All
+        </button>
+        
+        <button class="button" (click)="Close()">
+            cancel
+        </button>
+    </div>
+
+</div>

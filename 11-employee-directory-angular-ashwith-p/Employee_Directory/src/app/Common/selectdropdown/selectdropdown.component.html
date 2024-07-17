@@ -1,0 +1,4 @@
+<select [id]="name" (change)="sendFiltersData()" [(ngModel)]="selectedItem">
+    <option value="none" selected disabled hidden>{{name}}</option>
+    <option *ngFor="let item of items" [value]="item">{{item}}</option>
+</select>

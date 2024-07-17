@@ -1,0 +1,39 @@
+.to-do-app{
+    display: flex;
+}
+.side-bar{
+    width: 22%;
+    flex-grow: 0;
+}
+.container{
+    width: 77%;
+    flex-grow: 1;
+}
+.add-task{
+    display: block;
+    z-index: 2;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    display: none;
+}
+.blur{
+    filter: blur(3px);
+    pointer-events: none;
+}
+.display-block
+{
+    display: block;
+}
+
+
+@media screen and (max-width:876px) {
+    .side-bar
+    {
+        display: none;
+    }
+    .add-task
+    {
+        left: 5%;
+    }
+}

@@ -1,0 +1,21 @@
+<div >
+    <div class="dashboard">
+        <div class="dashboard-content">
+            <app-greetings class="width-100"></app-greetings>
+            <div class="task-status-bar-top">
+                <app-task-status text="Completed tasks" bgColor="#BA5112" image="/assets/completed.png" [percentage]="completedPercentage"></app-task-status>
+                <app-task-status text="Active tasks" bgColor="#EDB046" image="/assets/Timer.png" [percentage]="activePercentage"></app-task-status>
+            </div>
+            <div class="width-100">
+                <app-task-header></app-task-header>
+                <div class="task-details">
+                    <app-task-list class="task-list" (count)="GetCount($event)"></app-task-list>
+                    <div class="task-status-bar">
+                        <app-task-status text="Completed tasks" bgColor="#BA5112" image="/assets/completed.png" [percentage]="completedPercentage"></app-task-status>
+                        <app-task-status text="Active tasks" bgColor="#EDB046" image="/assets/Timer.png" [percentage]="activePercentage"></app-task-status>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

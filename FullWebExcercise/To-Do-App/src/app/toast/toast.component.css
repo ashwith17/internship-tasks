@@ -1,0 +1,30 @@
+
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 4;
+  }
+  .colour-red
+  {
+    color: red;
+  }
+  .colour-green
+  {
+    color: rgb(62, 255, 62);
+  }
+  .toast button {
+    background: none;
+    border: none;
+    color: #000;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  

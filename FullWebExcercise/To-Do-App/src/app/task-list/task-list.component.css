@@ -1,0 +1,190 @@
+
+.p-relative
+{
+    position: relative;
+}
+.task-name{
+    height: 28px;
+    width: 98%;
+    font-size: 20px;
+    font-family: Lexend;
+    font-weight: 400;
+    display: inline-flex;
+    column-gap: 13px;
+    margin-top: 5px;
+}
+
+.task-format{
+    
+    height: 38px;
+    border-radius: 12px;
+    padding: 15px 24px;
+    box-shadow: rgba(107, 89, 83, 0.2) 0px 7px 29px 0px;
+}
+
+.completed{
+    background-color: #EDB046;
+}
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.summary
+{
+    width: 50%;
+    height: 399%;
+    padding: 20px;
+    border-radius: 12px;
+    position: absolute;
+    right: 5px;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    z-index: 3;
+    display: none;
+    max-width: 250px;
+    max-height: 250px;
+}
+.bg-white
+{
+    background-color: white;
+}
+
+.contents
+{
+    width: 100%;
+    height: 190px;
+}
+
+.title{
+    width: 300px;
+    height: 35px;
+    font-family: Lexend;
+    font-size: 28px;
+    font-weight: 700;
+    color: #251814; 
+    margin-bottom: 7px;
+
+}
+
+.duration{
+    width: 300px;
+    height: 20px;
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 400;
+    color: #B5B5B5;
+    margin-top: 0px;
+}
+.modifications{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.name{
+    width: 300px;
+    height: 25px;
+    font-family: Lexend;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.task-description
+{
+    width: 300px;
+    height: 25px;
+    font-family: Lexend;
+    font-size: 20px;
+    font-weight: 400;   
+}
+.g-20
+{
+    display: inline-flex;
+    gap: 20px;
+}
+.display-block{
+    display: block;
+}
+.display-none
+{
+    display: none;
+}
+.color-red{
+    color: #BA5112;
+}
+
+@media screen and (max-width:550px){
+
+    .summary
+    {
+        width: 60%;
+    }
+    
+}
+
+
+@media screen and (max-width:550px) {
+    
+    
+.task-format {
+    height: 38px;
+    margin-top: 4px;
+    padding: 7px 10px;
+}
+.contents {
+    width: 100%;
+    height: 109px;
+}
+
+.task-name {
+    height: 19px;
+    width: 98%;
+    font-size: 15px;
+    column-gap: 13px;
+    margin-top: 5px;
+}
+
+.summary {
+    width: 69%;
+    height: 243%;
+    padding: 2.65% 3.96%;
+}
+
+.title {
+    width: 152px;
+    height: 24px;
+    font-size: 17px;
+    margin-bottom: 7px;
+    margin: 2px;
+
+}
+
+.duration {
+    font-size: 8px;
+    margin-top: 0px;
+    width: 100px;
+    margin: 0px;
+
+}
+
+.name {
+    font-size: 13px;
+    margin: 0px;
+    width: 100px;
+}
+    
+.task-description{
+    font-size: 12px;
+    margin: 0px;
+    width: 100px;
+}
+
+.modifications {
+    margin-top: 1%;
+}
+.modifications img
+{
+    width: 18px;
+}
+
+}

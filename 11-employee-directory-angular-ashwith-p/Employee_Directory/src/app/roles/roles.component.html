@@ -1,0 +1,48 @@
+<div class="add-roles">
+    <div>
+        <p>Roles</p>
+        <p class="content">All the roles are configured here</p>
+    </div>
+    <a routerLink="/add-role" routerLinkActive="active"><button class="add-btn"><img src="assets/Add.svg" alt="add-img" />ADD ROLE</button></a>
+</div>
+<div class="filter-search">
+    <div>
+    <span>Filter</span>
+    <img src="assets/bars-filter.svg" alt="bars-filter" width="15px">
+    <app-selectdropdown [name]="'Location'" [items]="locations" (sendData)="receiveData($event,'Location')" #locationref></app-selectdropdown>
+        <app-selectdropdown [name]="'Department'" [items]="departments" (sendData)="receiveData($event,'Department')" #departmentref></app-selectdropdown>
+    </div>
+    <div><button class="reset-btn" (click)="resetFiltersOnEmployees()">Reset</button>
+        <button class="apply-btn" (click)="applyFilterOnEmployees()">Apply</button></div>
+</div>
+<section class="roles-info">
+    @for(role of roles;track role)
+    {
+        <div class="role-card" id="{{role.Id}}" #roleRef>
+            <div class="role-details">
+                <p class="role-name m-8"><b>{{role.Name}}</b></p>
+                <img src="assets/edit.svg" alt="edit-img"/>
+            </div>
+            <div class="role-details">
+                <div class="alignment"><img src="assets/team_svgrepo.com.svg" alt="team-img"><p class="m-8">Department</p></div>
+                <p class="m-8">{{role.Department}}</p>
+            </div>
+            <div class="role-details">
+                <div class="alignment">
+                    <img src="assets/location-pin-alt-1_svgrepo.com.svg" alt="location-img"><p class="m-8">Location</p></div>
+                <p class="m-8">{{role.Location}}</p>
+            </div>
+            <div class="role-details">
+                <p class="m-8">Total Employees</p>
+                <div class="total-employees">
+                    <img src="assets/p1.webp" alt="person1" class="p1 person-img">
+                    <img src="assets/p2.webp" alt="person2" class="p2 person-img">
+                    <img src="assets/p3.webp" alt="person3" class="p3 person-img">
+                    <img src="assets/p4.webp" alt="person4" class="p4 person-img">
+                    <div class="emp-count"><p class="emp-count-num">+43</p></div>
+                </div>
+            </div>
+            <a class="role-descr-btn" (click)="getRoleDesc($event)"><p class="view-employee m-8" >View all employees <img src="assets/Vector.svg" alt="Vector"></p></a>
+        </div>
+    }
+</section>

@@ -1,0 +1,273 @@
+@media screen and (max-width:1024px){
+    
+    .banner-right-travller-img img {
+        height: 490px;
+        width: 490px;
+        margin-right: 0px;
+    }
+    .banner-left-info h1 {
+        font-size: 60px;
+    }
+    #banner-plus-image {
+        left: 862px;
+    }
+    .banner-section 
+    {
+        justify-content: center;
+    }
+    
+    .category-services {
+        justify-content: center;
+    }
+    .topselling-container {
+        justify-content: space-evenly;
+    }
+    .explore-section-content {
+        column-gap: 80px;
+    }
+    .ongoing-trip {
+        left: 632px;
+        bottom: 186px;
+    }
+    .feedback-section-border {
+        width: 800px;
+    }
+    #spring-left-img img {
+        height: 150px;
+        width: 200px;
+    }
+    .envelope {
+        position: relative;
+        right: 56.7%;
+    }
+    #spring-left-img {
+        bottom: 150px;
+    }
+    #spring-right-img img {
+        height: 150px;
+        width: 200px;
+    }
+    #spring-right-img {
+        bottom: 410px;
+        left: 684px;
+        height: 200px;
+        width: 150px;    
+    }
+    .feedback-section-arrow-img {
+        top: 2753px;
+        left: 922px;
+    }
+    .extra-details {
+        column-gap: 30px;
+    }
+    .feedback-section-plus-img {
+        top: 2967px;
+        left: 853px;
+    }
+}
+@media screen  and (max-width:768px) {
+    body {
+        margin-left: 30px;
+    }
+    .main-header {
+        column-gap: 0px;
+    }
+    
+    .header-nav ul li a {
+        
+        padding: 4px 5px;
+    }
+    .header-nav {
+        padding: 20px 0px 0px 0px;
+    }
+    .banner-section {
+        justify-content: center;
+    }
+    .banner-left-end {
+        padding: 0px 0px 0px 35px;
+    }
+    .banner-left-start {
+        margin-top: 0px;
+    }
+    .banner-left-info {
+        width: 100%;
+        text-align: center;
+    }
+    .explore-book-your-trip {
+        width: 50%;
+    }
+    .explore-section-content {
+        justify-content: center;
+    }
+   
+    .explore-current-trip {
+        padding: 40px 10px 10px 10px;
+    }
+    .ongoing-trip {
+        left: 410px;
+        bottom: 187px;
+    }
+    .envelope {
+        position: relative;
+        right: 70.7%;
+    }
+    .feedback-section-border button {
+        margin-top: 12px;
+    }
+    #banner-plus-image {
+        left: 607px;
+        top: 900px;
+    }
+    .feedback-section-border {
+        width: 645px;
+    }
+    #spring-right-img {
+        left: 528px;
+    }
+    .feedback-section-arrow-img {
+        top: 3409px;
+        left: 690px;
+    }
+    .feedback-section-plus-img {
+        top: 715%;
+        left: 605px;
+    }
+    .extra-details {
+        column-gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    
+}
+@media screen and (max-width:426px) {
+    body{
+        margin-left: auto;
+    }
+    .header-nav{
+        display: none;
+    }
+    .side-bar{
+        display: contents;
+    }
+    .banner-right-travller-img img {
+        height: 430px;
+        width: 430px;
+    }
+    #banner-plus-image {
+        left: 310px;
+        top: 983px;
+    }
+    #banner-plus-image img{
+        width: 100px;
+    }
+    .explore-book-your-trip {
+        width: 99%;
+    }
+    .ongoing-trip {
+        left: 62px;
+        bottom: 17px;
+    }
+    #btn {
+        border: 8px hidden rgb(220, 220, 220);
+    }
+    .feedback-section-border {
+        width: 75%;
+        height: 250px;
+    }
+    #spring-right-img img {
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+    #spring-right-img {
+        left: 0px;
+        height: 0px;
+        width: 0px;
+    }
+    #spring-left-img img {
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+    #spring-left-img {
+        left: 0px;
+        height: 0px;
+        width: 0px;
+    }
+    .feedback-section-plus-img {
+        top: 5132px;
+        left: 306px;
+    }
+    .feedback-section-plus-img img{
+        width: 100px;
+    }
+    .feedback-section-arrow-img {
+        top: 4859px;
+        left: 345px;
+    }
+    .feedback-section-border {
+        /* width: 75%; */
+        height: 300px;
+    }
+}
+@media screen and (max-width:376px) {
+    .banner-right-travller-img img {
+        height: 370px;
+        width: 370px;
+    }
+    #banner-plus-image {
+        left: 260px;
+        top: 1014px;
+    }
+    .feedback-section-plus-img {
+        top: 5271px;
+        left: 268px;
+    }
+    .feedback-section-arrow-img {
+        top: 4980px;
+        left: 310px;
+    }
+    .feedback-section-border {
+        /* width: 75%; */
+        height: 300px;
+    }
+    
+}
+@media screen and (max-width:321px){
+    #banner-plus-image img{
+        width: 0px;
+    }
+    #banner-plus-image,.feedback-section-plus-img,.feedback-section-arrow-img{
+        width: 0px;
+        height: 0px;
+    }
+    .feedback-section-plus-img img{
+        width: 0px;
+    }
+    #btn {
+        width: 201px;
+    }
+    .feedback-section-border {
+        height: 300px;
+    }
+    .feedback-section-arrow-img img{
+        width: 0px;
+        height: 0px;
+    }
+    .explore-booking-steps {
+        width: 100%;
+    }
+    .trip-to-greece {
+        width: 100%;
+    }
+    .trip-to-greece{
+        width: 98%;
+    }
+    .current-trip-members-count {
+        column-gap: 120px;
+    }
+    .ongoing-trip {
+        left: 30px;
+    }
+}

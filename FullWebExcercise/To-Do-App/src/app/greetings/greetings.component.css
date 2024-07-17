@@ -1,0 +1,148 @@
+.greetings-card{
+    position: relative;
+    width: 100%;
+    height: 282px;
+}
+.greetings-card img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+
+}
+.box-shadow{
+    box-shadow: rgba(107, 89, 83, 0.2) 0px 7px 29px 0px;
+    border-radius: 12px;
+    height: 232px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+
+}
+
+.welcome-msg{
+    height: 55px;
+    width: 60%;
+    font-family: Lexend;
+    font-weight: 700;
+    font-size: 35px;
+    color: #251814;
+
+}
+.greeting-content{
+    margin-left: 6%;
+    margin-top: 70px;
+}
+.question{
+    height: 20px;
+    font-size: 13px;
+    font-family: Lexend;
+    font-weight: 400;
+    width: 26%;
+    color: #251814;
+    white-space: nowrap;
+}
+
+@media screen and (max-width:1070px) {
+
+    .welcome-msg{
+        font-size: 25px;
+    }
+    .question{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:728px) {
+    .greetings-card img{
+        width: 227px;
+        height: 215px;
+    }
+    .welcome-msg
+    {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .box-shadow{
+        height: 200px;
+    }
+    .greetings-card {
+        width: 100%;
+        height: 237px;
+    }
+    .greetings-card img{
+        width: 207px;
+        height: 195px;
+    }
+    .question
+    {
+        font-size: 10px;
+    }
+    .welcome-msg
+    {
+        font-size: 16px;
+    }
+    
+}
+@media screen and (max-width:425px) {
+
+    .greetings-card{
+        width: 100%;
+        height: 176px;
+    }
+    .greetings-card img {
+        width: 131px;
+        height: 115px;
+    } 
+
+    .box-shadow {
+        height: 140px;
+    }
+    .greeting-content
+    {
+        margin-top: 45px;
+    }
+    .welcome-msg {
+        font-size: 16px;
+        height: 43px;
+    }
+    .question
+    {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:400px) {
+    .width-100 {
+        width: 98%;
+        margin-top: 20px;
+    }
+
+    .greetings-card {
+        width: 99%;
+        height: 157px;
+    }
+
+    .greetings-card img {
+        width: 131px;
+        height: 113px;
+        bottom: 18px;
+    }
+
+    .box-shadow{
+        height: 115px;
+    }
+
+    .greeting-content {
+        margin-top: 39px;
+    }
+    .welcome-msg{
+        font-size: 11px;
+        height: 26px;
+    }
+
+    .question {
+        font-size: 7px;
+    }
+    
+}

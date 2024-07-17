@@ -1,0 +1,34 @@
+<div class="add-roles">
+    <div>
+        <a routerLink="/roles" routerLinkActive="active" class="roles-btn"><span>Roles</span></a><img src=" assets/side_arrow.svg" alt="side_arrow" class="side-arrow-icon"/><span>Employees</span>
+        <p class="content">All the roles are configured here</p>
+    </div>
+    <a routerLink="/add-employee" routerLinkActive="'active"><button class="add-btn"><img src=" assets/Add.svg" alt="add-img" />ADD EMPLOYEE</button></a>
+</div>
+<div class="role-descr">
+    <strong>Role Description</strong>
+    <p class="content">Configure the providers that are available users when they sign in. The providers show know who were logging in
+    and who were logging out. Users should be displayed when login.
+    </p>
+</div>
+<section class="description-section">
+    
+        @for(employee of employees;track employee.Id)
+        {
+            <div class="emp-card">
+            <div class="emp-details">
+                <img src=" assets/p1.webp" alt="person-img" class="person1">
+                <div class="emp-name-role">
+                    <p class="m-0"><b>{{employee.FirstName}}  {{employee.LastName}}</b></p>
+                    <p class="m-0">{{employee.Role}}</p>
+                </div>
+            </div>
+            <div class="alignment"><img src=" assets/Vector (1).svg" alt="vector" class="emp-work-info"><p class="m-8">{{employee.Id}}</p></div>
+            <div class="alignment"><img src=" assets/email-1_svgrepo.com.svg" alt="Email-icon" class="emp-work-info"><p class="m-8">{{employee.Email}}</p></div>
+            <div class="alignment"><img src=" assets/team_svgrepo.com.svg" alt="employees" class="emp-work-info"><p class="m-8">{{employee.Department}}</p></div>
+            <div class="alignment"><img src=" assets/location-pin-alt-1_svgrepo.com.svg" alt="location-img" class="emp-work-info"><p class="m-8">Stockton, New Hampshire</p></div>
+            <a routerLinkActive="active" [routerLink]="['/add-employee/view',employee.Id]"><p class="m-8 align-right">View All <img src=" assets/Vector.svg" alt="vector"></p></a>
+        </div>
+        }
+    
+</section>

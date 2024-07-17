@@ -1,0 +1,6 @@
+<!-- toast.component.html -->
+<div *ngIf="isVisible" class="toast" [class.colour-green]="colour=='green'" [class.colour-red]="colour=='red'">
+    <span>{{ message }}</span>
+    <button (click)="close()">{{ action }}</button>
+  </div>
+  

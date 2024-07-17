@@ -1,0 +1,27 @@
+<div class="side-bar">
+    <div class="contents">
+        <div class="title">
+            <div>To-Do App</div>
+        </div>
+        <div class="options-and-buttons">
+            <div class="button-center">
+                <div class="add-task-button" (click)="addTask('add-task')">
+                    <div class="btn-content">
+                        <div class="value">
+                            Add Task
+                        </div>
+                        <div class="icon">
+                            <div class="horizantal"></div>
+                            <div class="vertical"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="options">
+                <div routerLink="/dashboard" routerLinkActive="active">DashBoard</div>
+                <div  routerLink="/active" routerLinkActive="active">Active</div>
+                <div routerLink="/completed" routerLinkActive="active">Completed</div>
+            </div>
+        </div>
+    </div>
+</div>

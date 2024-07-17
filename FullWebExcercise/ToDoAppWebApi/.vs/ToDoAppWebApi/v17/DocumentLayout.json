@@ -1,0 +1,723 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|c:\\users\\ashwith.p\\source\\repos\\todoappwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|c:\\users\\ashwith.p\\source\\repos\\todoappwebapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|c:\\users\\ashwith.p\\source\\repos\\todoappwebapi\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|solutionrelative:dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4440D4-918A-48F7-BCD6-E08A52CD64BC}|..\\Data\\Data.csproj|c:\\users\\ashwith.p\\source\\repos\\data\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|c:\\users\\ashwith.p\\source\\repos\\todoappwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|c:\\users\\ashwith.p\\source\\repos\\todoappwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4440D4-918A-48F7-BCD6-E08A52CD64BC}|..\\Data\\Data.csproj|c:\\users\\ashwith.p\\source\\repos\\data\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|c:\\users\\ashwith.p\\source\\repos\\todoappwebapi\\dto\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|solutionrelative:dto\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062631_makefieldnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4440D4-918A-48F7-BCD6-E08A52CD64BC}|..\\Data\\Data.csproj|c:\\users\\ashwith.p\\source\\repos\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4440D4-918A-48F7-BCD6-E08A52CD64BC}|..\\Data\\Data.csproj|c:\\users\\ashwith.p\\source\\repos\\data\\models\\taskdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062343_deletepropertymodify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4440D4-918A-48F7-BCD6-E08A52CD64BC}|..\\Data\\Data.csproj|c:\\users\\ashwith.p\\source\\repos\\data\\todoappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062229_deletepropertymodify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062134_deletepropertymodified.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062004_deletepropertychange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061628_changesInDBcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061445_changesInProperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061354_initialchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4440D4-918A-48F7-BCD6-E08A52CD64BC}|..\\Data\\Data.csproj|c:\\users\\ashwith.p\\source\\repos\\data\\interfaces\\itaskdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061230_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061045_tablenameChanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4440D4-918A-48F7-BCD6-E08A52CD64BC}|..\\Data\\Data.csproj|c:\\users\\ashwith.p\\source\\repos\\data\\repository\\taskdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4440D4-918A-48F7-BCD6-E08A52CD64BC}|..\\Data\\Data.csproj|c:\\users\\ashwith.p\\source\\repos\\data\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4440D4-918A-48F7-BCD6-E08A52CD64BC}|..\\Data\\Data.csproj|c:\\users\\ashwith.p\\source\\repos\\data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|c:\\users\\ashwith.p\\source\\repos\\todoappwebapi\\todoappwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{67DE2E3E-6457-4ABD-8A5D-471084F1F795}|ToDoAppWebApi.csproj|solutionrelative:todoappwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620050715_addedNewConstraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620045900_changesconsraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620045606_updatedatabaseconstraint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620045308_updatedatabaseconstraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620045110_updatedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4440D4-918A-48F7-BCD6-E08A52CD64BC}|..\\Data\\Data.csproj|c:\\users\\ashwith.p\\source\\repos\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620040152_constraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620035953_constraint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620035811_constraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620034705_sontraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620034513_updatedconstraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620034345_updatedconstraint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620034227_changedconstraint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620033842_changedconstraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620033753_changedschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620033603_changedDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240619201337_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "DTO\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T07:37:01.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAawBEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:37:07.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-19T19:41:44.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "Controllers\\UserController.cs*",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAvwBIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:04:20.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "..\\Data\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:19:51.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "..\\Data\\Repository\\GenericRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAASwB4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:07:00.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T05:12:07.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Models\\User.cs",
+              "RelativeToolTip": "..\\Data\\Models\\User.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:10:05.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskDetails.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Models\\TaskDetails.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Models\\TaskDetails.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Models\\TaskDetails.cs",
+              "RelativeToolTip": "..\\Data\\Models\\TaskDetails.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwBkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:10:04.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240620062631_makefieldnullable.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062631_makefieldnullable.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620062631_makefieldnullable.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062631_makefieldnullable.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620062631_makefieldnullable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:26:31.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\DTO\\TaskDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\TaskDTO.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\DTO\\TaskDTO.cs",
+              "RelativeToolTip": "DTO\\TaskDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T05:24:59.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240620062134_deletepropertymodified.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062134_deletepropertymodified.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620062134_deletepropertymodified.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062134_deletepropertymodified.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620062134_deletepropertymodified.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:21:34.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240620062229_deletepropertymodify.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062229_deletepropertymodify.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620062229_deletepropertymodify.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062229_deletepropertymodify.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620062229_deletepropertymodify.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:22:29.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240620062343_deletepropertymodify.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062343_deletepropertymodify.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620062343_deletepropertymodify.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062343_deletepropertymodify.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620062343_deletepropertymodify.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:23:43.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ToDoAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\ToDoAppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Data\\ToDoAppDbContext.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\ToDoAppDbContext.cs",
+              "RelativeToolTip": "..\\Data\\ToDoAppDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIA+wA4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:12:19.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240620062004_deletepropertychange.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062004_deletepropertychange.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620062004_deletepropertychange.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620062004_deletepropertychange.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620062004_deletepropertychange.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:20:05.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240620061628_changesInDBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061628_changesInDBcontext.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620061628_changesInDBcontext.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061628_changesInDBcontext.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620061628_changesInDBcontext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:16:28.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240620061445_changesInProperty.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061445_changesInProperty.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620061445_changesInProperty.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061445_changesInProperty.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620061445_changesInProperty.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:14:46.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240620061354_initialchange.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061354_initialchange.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620061354_initialchange.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061354_initialchange.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620061354_initialchange.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:13:54.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240620061230_initial.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061230_initial.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620061230_initial.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061230_initial.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620061230_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:12:30.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\Data\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:06:15.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ITaskDetails.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Interfaces\\ITaskDetails.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Interfaces\\ITaskDetails.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Interfaces\\ITaskDetails.cs",
+              "RelativeToolTip": "..\\Data\\Interfaces\\ITaskDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:14:58.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240620061045_tablenameChanged.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061045_tablenameChanged.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620061045_tablenameChanged.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620061045_tablenameChanged.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620061045_tablenameChanged.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:10:46.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "..\\Data\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:11:05.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TaskDetailsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Repository\\TaskDetailsRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Repository\\TaskDetailsRepository.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Repository\\TaskDetailsRepository.cs",
+              "RelativeToolTip": "..\\Data\\Repository\\TaskDetailsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:21:05.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ToDoAppWebApi",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\ToDoAppWebApi.csproj",
+              "RelativeDocumentMoniker": "ToDoAppWebApi.csproj",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\ToDoAppWebApi\\ToDoAppWebApi.csproj",
+              "RelativeToolTip": "ToDoAppWebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-20T05:24:18.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20240620045110_updatedatabase.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620045110_updatedatabase.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620045110_updatedatabase.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620045110_updatedatabase.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620045110_updatedatabase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:51:10.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20240620045900_changesconsraints.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620045900_changesconsraints.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620045900_changesconsraints.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620045900_changesconsraints.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620045900_changesconsraints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:59:00.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20240620050715_addedNewConstraints.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620050715_addedNewConstraints.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620050715_addedNewConstraints.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620050715_addedNewConstraints.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620050715_addedNewConstraints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T05:07:15.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20240620045606_updatedatabaseconstraint.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620045606_updatedatabaseconstraint.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620045606_updatedatabaseconstraint.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620045606_updatedatabaseconstraint.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620045606_updatedatabaseconstraint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:56:06.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20240620045308_updatedatabaseconstraints.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620045308_updatedatabaseconstraints.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620045308_updatedatabaseconstraints.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620045308_updatedatabaseconstraints.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620045308_updatedatabaseconstraints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:53:08.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20240620040152_constraints.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620040152_constraints.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620040152_constraints.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620040152_constraints.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620040152_constraints.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:01:52.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20240620035953_constraint.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620035953_constraint.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620035953_constraint.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620035953_constraint.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620035953_constraint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:59:53.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Data",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Data.csproj",
+              "RelativeDocumentMoniker": "..\\Data\\Data.csproj",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Data.csproj",
+              "RelativeToolTip": "..\\Data\\Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-19T19:10:06.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20240620035811_constraints.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620035811_constraints.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620035811_constraints.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620035811_constraints.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620035811_constraints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:58:11.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240620034705_sontraints.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620034705_sontraints.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620034705_sontraints.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620034705_sontraints.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620034705_sontraints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:47:05.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20240620034513_updatedconstraints.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620034513_updatedconstraints.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620034513_updatedconstraints.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620034513_updatedconstraints.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620034513_updatedconstraints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:45:13.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20240620034345_updatedconstraint.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620034345_updatedconstraint.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620034345_updatedconstraint.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620034345_updatedconstraint.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620034345_updatedconstraint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:43:46.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20240620034227_changedconstraint.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620034227_changedconstraint.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620034227_changedconstraint.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620034227_changedconstraint.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620034227_changedconstraint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:42:28.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20240620033842_changedconstraints.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620033842_changedconstraints.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620033842_changedconstraints.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620033842_changedconstraints.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620033842_changedconstraints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:38:42.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20240620033753_changedschema.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620033753_changedschema.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620033753_changedschema.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620033753_changedschema.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620033753_changedschema.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:37:53.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20240620033603_changedDB.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620033603_changedDB.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240620033603_changedDB.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240620033603_changedDB.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240620033603_changedDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:36:03.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20240619201337_initial.cs",
+              "DocumentMoniker": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240619201337_initial.cs",
+              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20240619201337_initial.cs",
+              "ToolTip": "C:\\Users\\ashwith.p\\source\\repos\\Data\\Migrations\\20240619201337_initial.cs",
+              "RelativeToolTip": "..\\Data\\Migrations\\20240619201337_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T20:13:38.251Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

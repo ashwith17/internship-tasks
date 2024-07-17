@@ -1,0 +1,16 @@
+<div class="add-task"> 
+    <div class="add-task-content">
+        <form [formGroup]="form">
+            <div class="add-task-form">
+                <input type="text" class="add-task-title" placeholder="Title" formControlName="title"/>
+                <textarea name="description" class="add-task-description" cols="30" rows="6" placeholder="Add-description" formControlName="description"></textarea>
+            </div>
+            <div>
+                <div class="add-task-operations">
+                    <button class="cancel-btn" (click)="RemoveAddTaskComponent()">Cancel</button>
+                    <button class="save-btn" (click)="addTask()">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

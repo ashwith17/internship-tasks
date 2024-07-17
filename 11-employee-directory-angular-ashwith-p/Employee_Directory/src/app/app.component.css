@@ -1,0 +1,20 @@
+
+.horizantal-content {
+    box-shadow: 0px 0px 4px rgb(212, 200, 200);
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    width: 196px;
+}
+
+.container{
+    padding: 10px 15px;
+    width: calc(100% - 230px);
+    position: relative;
+    height: 96vh;
+    overflow: scroll;
+}
+
+#wrapper{
+    display: flex;
+}
